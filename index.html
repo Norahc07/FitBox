@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>FitBox</title>
+    <meta name="application-name" content="FitBox" />
+    <meta name="description" content="FitBox is an offline-first spatial reasoning puzzle: more pieces than space — find the ones that belong and fill the box." />
+    <meta name="theme-color" content="#0e0e0f" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="FitBox" />
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <style>
+      html, body { margin: 0; background: #0e0e0f; }
+      .boot-splash { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; font-family: system-ui, sans-serif; color: #a1a1a6; font-size: 13px; }
+      .boot-splash img { animation: boot-pulse 1.6s ease-in-out infinite; }
+      .boot-splash strong { color: #ff8a47; }
+      @keyframes boot-pulse { 50% { opacity: 0.55; transform: scale(0.96); } }
+      @media (prefers-reduced-motion: reduce) { .boot-splash img { animation: none; } }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot-splash" aria-busy="true">
+        <img src="/brand/fitbox-logo.png" alt="FitBox" width="120" height="120" />
+        <span>Powered by <strong>Fenix Innolabs</strong></span>
+      </div>
+    </div>
+    <noscript>FitBox needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

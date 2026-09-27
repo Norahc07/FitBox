@@ -1,0 +1,19 @@
+{
+  "name": "FitBox",
+  "short_name": "FitBox",
+  "description": "More pieces than space. Find the pieces that belong and fill every cell of the box.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0e0e0f",
+  "theme_color": "#0e0e0f",
+  "categories": ["games", "puzzle", "education"],
+  "related_applications": [{ "platform": "webapp", "url": "/manifest.webmanifest" }],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
